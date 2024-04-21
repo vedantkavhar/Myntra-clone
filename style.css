@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    background:white;
+    height:70px;
+}
+.rightBox{
+    display: flex;
+    margin: 12px;
+}
+.left img{
+    height: 30px;
+    width: 38px;
+    
+}
+
+/* to reussed for centering
+ */
+.container{
+    /* max-width: 80vw; */
+    padding: 0 10vw;
+    /* background: red; */
+}
+
+.containerHeader{
+    padding: 0 10vw;
+}
+
+.nav{
+    padding-top: 14px;
+    font-size: 9px;
+    
+}
+
+.left a{
+    margin: 10px;
+    list-style: none;
+    color: black;
+    
+}
+
+.underline{
+    text-decoration: none;
+}
+
+.section-1{
+    /* background:#f2f2f2; */
+    /* height: 122vh; */
+}
+
+
+.Search{
+    color: #696e79;
+    background:#f5f5f6;
+    width: 20vw;
+    padding: 6px 6px;
+    border: 0.5px solid gray;
+    border-radius: 3px;
+
+
+}
+
+.homeimg{
+    width:80vw;
+    padding: 9px 2px;
+}
+
+.banner{
+    width: 80vw;
+    /* padding: 9px 2px; */
+    height: 16vh;
+    /* background: white; */
+    margin-top: 0px;
+    text-transform: full-width;
+
+
+}
+.itemimg{
+    width: 11vw;
+    /* height: 43vh; */
+    margin: 4px 2px;
+
+}
+
+.footer{
+    text-align: center;
+    padding: 23px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.playstore{
+    height: 10vh;
+    width:  10vw;
+}
+.tall{
+    min-height: 40vh;
+}
+
+.decor{
+    list-style: none;
+}
+@media(max-width:450px){
+    .Search{
+        width: 72vw;
+    }
+}
+
+@media (max-width:1500px){
+   .left li{
+    list-style: none;
+    padding: 0 4px;
+    font-size: 10px;
+   }
+    .header{
+        /* background: red; */
+        height: 122px;
+    }
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        flex-direction: column;
+        
+    }
+    .rightBox{
+        display: flex;
+        margin: 12px;
+        font-size: 10px;
+    }
+}

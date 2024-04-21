@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .shirt1{
+    background: red;
+} */
+
+
+.img-box{
+    margin: 108px;
+    display: flex;
+    justify-content: center;
+    /* width: 1000px;
+    height: 1000px; */
+    min-width: 583px;
+    min-height: 391px;
+
+}
